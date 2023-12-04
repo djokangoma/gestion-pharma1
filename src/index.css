@@ -15,11 +15,11 @@
 
 a {
   font-weight: 500;
-  color: #d29915;
+  color: #15d22e;
   text-decoration: inherit;
 }
 a:hover {
-  color: #000;
+  color: #a50707;
 }
 
 body {
@@ -30,7 +30,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  color: #d29915;
+  color: #046739;
   background-image: url(assets/pharmacie.jpg);
 }
 
@@ -60,6 +60,7 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
+  color: #15d22e;
   transition: border-color 0.25s;
   margin: 2rem;
 }
