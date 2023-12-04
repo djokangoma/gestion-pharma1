@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import { link } from "react-router-dom";
 
+// eslint-disable-next-line no-unused-vars
 import { Link } from "react-router-dom";
 
 function ProductPreview({ product, seeMore }) {

@@ -4,16 +4,14 @@ import "./index.css";
 import Layout from "./components/layout/layout.jsx";
 import Login from "./pages/login.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./pages/home.jsx";
-import SingleProduct from "./pages/single-product.jsx";
-import About from "./pages/about.jsx";
+import Home from "./pages/home";
+import SingleProduct from "./pages/single-product";
+import About from "./pages/about";
 import Products from "./pages/products.jsx";
 import ProductList from "./pages/products-list";
-import AllProducts from "./pages/all-products.jsx";
+import AllProducts from "./pages/all-products";
 import CreateProducts from "./pages/create-products.jsx";
-import LayoutAdmin from "./components/layout/layoutAdmin.jsx";
-import UpdateProduct from "./pages/updata-product.jsx";
-import DeleteProduct from "./pages/delete-product.jsx";
+import LayoutAdmin from "./components/layout/layoutAdmin";
 
 const router = createBrowserRouter([
   {
