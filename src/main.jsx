@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+
 import "./index.css";
 import Layout from "./components/layout/layout.jsx";
 import Login from "./pages/login.jsx";
@@ -12,6 +13,8 @@ import ProductList from "./pages/products-list";
 import AllProducts from "./pages/all-products";
 import CreateProducts from "./pages/create-products.jsx";
 import LayoutAdmin from "./components/layout/layoutAdmin";
+import UpdateProduct from "./pages/update-product.jsx";
+import DeleteProduct from "./pages/delete-product.jsx";
 
 const router = createBrowserRouter([
   {
