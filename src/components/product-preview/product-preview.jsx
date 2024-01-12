@@ -8,6 +8,7 @@ function ProductPreview({ product, seeMore }) {
     <div>
       <img src={product.image} alt="product image" />
       <h2>{product.name} </h2>
+
       {seeMore ? (
         <p>{product.description}</p>
       ) : (
