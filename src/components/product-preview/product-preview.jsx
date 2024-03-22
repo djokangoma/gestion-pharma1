@@ -12,7 +12,7 @@ function ProductPreview({ product, seeMore }) {
       {seeMore ? (
         <p>{product.description}</p>
       ) : (
-        <Link to={`./products/${product.id}`}>voir plus</Link>
+        <Link to={`/products/${product.id}`}>voir plus</Link>
       )}
     </div>
   );

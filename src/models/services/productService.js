@@ -4,8 +4,7 @@ class ProductService {
       {
         id: "1",
         name: "Doliprane",
-        image:
-          "https://www.shutterstock.com/fr/image-photo/paris-france-january-2020-boxes-doliprane-1610200444",
+        image: "https://dummyimage.com/200x200/000/fff&text=Doliprane",
         description:
           "Le Doliprane est un médicament contre la douleur et la fièvre couramment utilisé pour soulager les maux de tête, les douleurs musculaires, les courbatures, les douleurs dentaires, les maux de gorge et les fièvres.",
       },
